@@ -7,7 +7,7 @@ import booksRoute from './routes/bookRoutes.js';
 const app= express();
 
 app.use(express.json());
-//app.use(cors());
+// app.use(cors());
 
 app.get('/',(req,res)=>{
    return  res.status(234).send('Hello World');
