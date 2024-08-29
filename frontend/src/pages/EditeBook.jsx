@@ -3,7 +3,7 @@ import React from 'react'
 const EditeBook = () => {
   return (
     <div>
-      
+      Edit
     </div>
   )
 }

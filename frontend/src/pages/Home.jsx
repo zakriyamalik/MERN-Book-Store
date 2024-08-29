@@ -13,7 +13,7 @@ const Home = () => {
   const [loading,setLoading]=useState(false);
   useEffect(()=>{
     setLoading(true);
-    axios.get('http://localhost:/books')
+    axios.get('http://localhost:5555/books')
     .then(res=>{
       setBooks(res.data.data)
       setLoading(false);
@@ -60,7 +60,7 @@ const Home = () => {
                     <td className='border border-slate-600 rounded-md text-center'>{index + 1}</td>
                     <td className='border border-slate-600 rounded-md text-center'>{book.title}</td>
                     <td className='border border-slate-600 rounded-md text-center'>{book.author}</td>
-                    <td className='border border-slate-600 rounded-md text-center'>{book.publisherYear}</td>
+                    <td className='border border-slate-600 rounded-md text-center'>{book.publishYear}</td>
                     <td className='border border-slate-600 rounded-md text-center'>
                       <div className='flex justify-center gap-x-4'>
                         <Link to={`/books/details/${book._id}`}>
@@ -92,3 +92,6 @@ const Home = () => {
 }
 
 export default Home
+
+
+
