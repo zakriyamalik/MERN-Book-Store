@@ -1,5 +1,5 @@
  
-The MERN-Book-Store is a GitHub repository that contains a book store application built using the MERN (MongoDB, Express.js, React.js, and Node.js) stack. The project appears to be in the development stage, with the latest commit message indicating that the Home component has been refactored to use separate BooksTable and BooksCard components.
+The MERN-Book-Store is a GitHub repository that contains a book store application built using the MERN (MongoDB, Express.js, React.js, and Node.js) stack. The project is in the development stage, with the latest commit message show that the Home component has been refactored to use separate BooksTable and BooksCard components.
 
 ### Main Function Points
 - Develop a book store application using the MERN stack
@@ -13,5 +13,5 @@ The MERN-Book-Store is a GitHub repository that contains a book store applicatio
 - Node.js: A JavaScript runtime environment for the backend
 
 ### License
-The license for this project is not specified in the provided content.
+The license for this project is not available.
 
