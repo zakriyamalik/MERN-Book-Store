@@ -1,6 +1,3 @@
-Here’s a README file for the MERN Book Store project, crafted to appear human-generated:
-
----
 
 # MERN Book Store
 
