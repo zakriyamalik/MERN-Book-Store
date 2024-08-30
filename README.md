@@ -78,6 +78,3 @@ We welcome contributions! If you'd like to contribute, please fork the repositor
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
----
-
-Feel free to modify any sections as needed!
